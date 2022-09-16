@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -17,21 +17,21 @@
         <!-- Header -->
         <header>
             <nav>
-                <a href="/" class="logo-webstudio"> 
+                <a class="logo-webstudio" href="./index.html"> 
                     <span class="logo-web-blue">Web</span>Studio
                 </a>
                 <ul class="site-nav">
-                    <li><a href="#">Студія</a></li>
-                    <li><a href="portfolio.html">Портфоліо</a></li>
-                    <li><a href="#">Контакти</a></li>
+                    <li><a class="link" href="#">Студія</a></li>
+                    <li><a class="current-page" href="portfolio.html">Портфоліо</a></li>
+                    <li><a class="link" href="#">Контакти</a></li>
                 </ul>
             </nav>
                 <ul>
                     <li>
-                        <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+                        <a class="link" href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
                     </li>
                     <li>
-                        <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+                        <a class="link" href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
                     </li>
                 </ul>
         </header>
@@ -41,59 +41,59 @@
                 <h2>Portfolio content filter</h2>
                 <ul class="page-nav">
                     <input type="button" 
-                    value="Усі" onclick="window.location.href='#'">
+                    value="Усі" onclick="window.location.href='#'" class="button">
                     <input type="button" 
-                    value="Веб-сайти" onclick="window.location.href='#'">
+                    value="Веб-сайти" onclick="window.location.href='#'" class="button">
                     <input type="button" 
-                    value="Додатки" onclick="window.location.href='#'">
+                    value="Додатки" onclick="window.location.href='#'" class="button">
                     <input type="button" 
-                    value="Дизайн" onclick="window.location.href='#'">
+                    value="Дизайн" onclick="window.location.href='#'" class="button">
                     <input type="button" 
-                    value="Маркетинг" onclick="window.location.href='#'">
+                    value="Маркетинг" onclick="window.location.href='#'" class="button">
                 </ul>
 
                 <ul>
-                    <li><a href="#">
+                    <li><a class="link" href="#">
                         <img src="./images/porfolio/technocrack.jpg" alt="Технокряк"  width="370">
                         <h3>Технокряк</h3>
                         <p>Веб-сайт</p>
                     </a></li>
-                    <li><a href="#">
+                    <li><a class="link" href="#">
                         <img src="./images//porfolio/new-orlean-vs-golden-star.jpg" alt="Постер New Orlean vs Golden Star"  width="370">
                         <h3>Постер New Orlean vs Golden Star</h3>
                         <p>Дизайн</p>
                     </a></li>
-                    <li><a href="#">
+                    <li><a class="link" href="#">
                         <img src="./images/porfolio/seafood-restaurant.jpg" alt="Ресторан Seafood"  width="370">
                         <h3>Ресторан Seafood</h3>
                         <p>Додаток</p>
                     </a></li>
-                    <li><a href="#">
+                    <li><a class="link" href="#">
                         <img src="./images/porfolio/prime-project.jpg" alt="Проєкт Prime"  width="370">
                         <h3>Проєкт Prime</h3>
                         <p>Маркетинг</p>
                     </a></li>
-                    <li><a href="#">
+                    <li><a class="link" href="#">
                         <img src="./images/porfolio/boxes-project.jpg" alt="Проєкт Boxes"  width="370">
                         <h3>Проєкт Boxes</h3>
                         <p>Додаток</p>
                     </a></li>
-                    <li><a href="#">
+                    <li><a class="link" href="#">
                         <img src="./images/porfolio/inspiration-has-no-borders.jpg" alt="Inspiration has no Borders"  width="370">
                         <h3>Inspiration has no Borders</h3>
                         <p>Веб-сайт</p>
                     </a></li>
-                    <li><a href="#">
+                    <li><a class="link" href="#">
                         <img src="./images/porfolio/i-am-limited-edition.jpg" alt="Видання Limited Edition"  width="370">
                         <h3>Видання Limited Edition</h3>
                         <p>Дизайн</p>
                     </a></li>
-                    <li><a href="#">
+                    <li><a class="link" href="#">
                         <img src="./images/porfolio/lab-project.jpg" alt="Проєкт LAB"  width="370">
                         <h3>Проєкт LAB</h3>
                         <p>Маркетинг</p>
                     </a></li>
-                    <li><a href="#">
+                    <li><a class="link" href="#">
                         <img src="./images/porfolio/growing-business.jpg" alt="Growing Business"  width="370">
                         <h3>Growing Business</h3>
                         <p>Додаток</p>
@@ -111,9 +111,11 @@
                     <span class="logo-web-blue">Web</span>Studio
                 </a>
                 <address>
-                <p>м. Київ, пр-т Лесі Українки, 26</p>
-                <a href="mailto:mango@mail.pig">info@devstudio.com</a>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                    <ul>
+                        <li>м. Київ, пр-т Лесі Українки, 26</li>
+                        <li><a class="link" href="mailto:mango@mail.pig">info@devstudio.com</a></li>
+                        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    </ul>
                 </address>
         </footer>
     </div>
