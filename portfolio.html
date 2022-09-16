@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Портфоліо</title>
 </head>
 <body>
@@ -12,10 +17,10 @@
         <!-- Header -->
         <header>
             <nav>
-                <a href="/">
-                    WebStudio
+                <a href="/" class="logo-webstudio"> 
+                    <span class="logo-web-blue">Web</span>Studio
                 </a>
-                <ul>
+                <ul class="site-nav">
                     <li><a href="#">Студія</a></li>
                     <li><a href="portfolio.html">Портфоліо</a></li>
                     <li><a href="#">Контакти</a></li>
@@ -31,70 +36,65 @@
                 </ul>
         </header>
         <main>
-            <!-- Local portfolio navigation -->
+            <!-- Portfolio navigation -->
             <section>
-                <h2>Portfolio content</h2>
-                <ul>
-                    <li><a href="#">
-                        Усі    
-                    </a></li>
-                    <li><a href="#">
-                        Веб-сайти
-                    </a></li>
-                    <li><a href="#">
-                        Додатки
-                    </a></li>
-                    <li><a href="#">
-                        Дизайн
-                    </a></li>
-                    <li><a href="#">
-                        Маркетинг
-                    </a></li>
+                <h2>Portfolio content filter</h2>
+                <ul class="page-nav">
+                    <input type="button" 
+                    value="Усі" onclick="window.location.href='#'">
+                    <input type="button" 
+                    value="Веб-сайти" onclick="window.location.href='#'">
+                    <input type="button" 
+                    value="Додатки" onclick="window.location.href='#'">
+                    <input type="button" 
+                    value="Дизайн" onclick="window.location.href='#'">
+                    <input type="button" 
+                    value="Маркетинг" onclick="window.location.href='#'">
                 </ul>
 
                 <ul>
                     <li><a href="#">
-                        <img src="./images/technocrack.svg" alt="Технокряк"  width="370">
+                        <img src="./images/porfolio/technocrack.jpg" alt="Технокряк"  width="370">
                         <h3>Технокряк</h3>
                         <p>Веб-сайт</p>
                     </a></li>
                     <li><a href="#">
-                        <img src="./images/new-orlean-vs-golden-star.svg" alt="Постер New Orlean vs Golden Star"  width="370">
+                        <img src="./images//porfolio/new-orlean-vs-golden-star.jpg" alt="Постер New Orlean vs Golden Star"  width="370">
                         <h3>Постер New Orlean vs Golden Star</h3>
                         <p>Дизайн</p>
                     </a></li>
                     <li><a href="#">
-                        <img src="./images/seafood-restaurant.svg" alt="Ресторан Seafood"  width="370">
+                        <img src="./images/porfolio/seafood-restaurant.jpg" alt="Ресторан Seafood"  width="370">
                         <h3>Ресторан Seafood</h3>
                         <p>Додаток</p>
                     </a></li>
                     <li><a href="#">
-                        <img src="./images/prime-project.svg" alt="Проєкт Prime"  width="370">
+                        <img src="./images/porfolio/prime-project.jpg" alt="Проєкт Prime"  width="370">
                         <h3>Проєкт Prime</h3>
                         <p>Маркетинг</p>
                     </a></li>
                     <li><a href="#">
-                        <img src="./images/boxes-project.svg" alt="Проєкт Boxes"  width="370">
+                        <img src="./images/porfolio/boxes-project.jpg" alt="Проєкт Boxes"  width="370">
                         <h3>Проєкт Boxes</h3>
                         <p>Додаток</p>
                     </a></li>
                     <li><a href="#">
-                        <img src="./images/inspiration-has-no-borders.svg" alt="Inspiration has no Borders"  width="370">
+                        <img src="./images/porfolio/inspiration-has-no-borders.jpg" alt="Inspiration has no Borders"  width="370">
                         <h3>Inspiration has no Borders</h3>
                         <p>Веб-сайт</p>
                     </a></li>
                     <li><a href="#">
-                        <img src="./images/i-am-limited-edition.svg" alt="Видання Limited Edition"  width="370">
+                        <img src="./images/porfolio/i-am-limited-edition.jpg" alt="Видання Limited Edition"  width="370">
                         <h3>Видання Limited Edition</h3>
                         <p>Дизайн</p>
                     </a></li>
                     <li><a href="#">
-                        <img src="./images/lab-project.svg" alt="Проєкт LAB"  width="370">
+                        <img src="./images/porfolio/lab-project.jpg" alt="Проєкт LAB"  width="370">
                         <h3>Проєкт LAB</h3>
                         <p>Маркетинг</p>
                     </a></li>
                     <li><a href="#">
-                        <img src="./images/growing-business.svg" alt="Growing Business"  width="370">
+                        <img src="./images/porfolio/growing-business.jpg" alt="Growing Business"  width="370">
                         <h3>Growing Business</h3>
                         <p>Додаток</p>
                     </a></li>
@@ -107,8 +107,8 @@
         </main>
         <!-- Footer -->
         <footer>
-                <a href="/"> 
-                    WebStudio
+                <a href="/" class="logo-webstudio"> 
+                    <span class="logo-web-blue">Web</span>Studio
                 </a>
                 <address>
                 <p>м. Київ, пр-т Лесі Українки, 26</p>

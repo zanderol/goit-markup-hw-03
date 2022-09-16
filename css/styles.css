@@ -1,0 +1,67 @@
+body {
+    font-family: Roboto;
+    color: black;
+}
+
+header {
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo-webstudio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo-web-blue {
+    color: #2196F3;
+}
+
+.page-hero {
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button {
+    /* position: absolute; */
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+}
+
+footer {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+footer .logo-webstudio  {
+        color: #FFFFFF;
+}
+
+li a h3 {
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+}
+
+li a p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
