@@ -7,8 +7,8 @@
 --main-bg: #2F303A;
 --main-gray: #757575;
 --white-60: rgba(255, 255, 255, 0.60);
---btn1-bg: #F5F4FA;
---gallery-li-border-color: #EEEEEE;
+--single-button-bg: #F5F4FA;
+--projects-list-li-border-color: #EEEEEE;
 --header-border-color: #ECECEC;
 
 }
@@ -28,7 +28,7 @@ body {
     line-height: 1.5rem;
 }
 
-.main-haeder{
+.main-header{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,6 +62,7 @@ margin-right: 40px;
 
 .main-nav ul{
 list-style: none;
+align-items: center;
 }
 .main-nav li{
 display: inline-block;
@@ -85,8 +86,7 @@ margin-inline: 10px;
 .main{
     width: 90%;
     margin-inline: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 60px auto;
 }
 
 .page-hero{
@@ -136,6 +136,12 @@ margin-inline: 10px;
     margin-bottom: 40px ;
 }
 
+.h2-title-invisible{
+    padding-top: 94px;
+    visibility: hidden;
+}
+
+
 
 .description{
     display: flex;
@@ -147,11 +153,11 @@ margin-inline: 10px;
     list-style: none;
     justify-content: space-between;
     max-width: 85%;
-
 }
 
 .description li{
     margin: 10px;
+    padding: 0px 30px;
 }
 
 .description p{
@@ -183,7 +189,7 @@ margin-inline: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--btn1-bg);
+    background-color: var(--single-button-bg);
     height: 648px;
     margin-top: 90px;
 }
@@ -199,7 +205,7 @@ margin-inline: 10px;
 .our-team li{
 background-color: var(--main-white);
 height: 368px;
-border: var(--gallery-li-border-color) 1px solid;
+border: var(--projects-list-li-border-color) 1px solid;
 margin-top: 30px;
 }
 
@@ -222,6 +228,10 @@ margin-top: 30px;
 
 }
 
+.main {
+    margin-top: 10px;
+}
+
 .buttons ul{
     display: flex;
     list-style-type: none;
@@ -229,9 +239,9 @@ margin-top: 30px;
     margin-bottom: 50px;
 }
 
-.btn1{
+.single-button {
     border: none;
-    background-color: var(--btn1-bg);
+    background-color: var(--single-button-bg);
     font-size: 16px;
     height: 38px;
     padding: 10px 25px;
@@ -239,36 +249,42 @@ margin-top: 30px;
     cursor: pointer;
 }
 
-.btn1:hover, .btn1:focus {
+.single-button:hover, .single-button:focus {
     background-color: var(--main-blue);
     color: var(--main-white);
     outline: none;
 
 }
 
-.gallery ul{
+
+.projects-list {
+    width: 1170px;
+    align-items: center;
+}
+
+.projects-list ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style-type:none;
 }
 
-.gallery li{
+.projects-list li{
     text-align: center;
-    border: var(--gallery-li-border-color) solid 1px;
+    border: var(--projects-list-li-border-color) solid 1px;
     width: 370px;
     height: 404px;
     margin-bottom: 30px;
 
 }
-.gallery h3 {
+.projects-list h3 {
     font-family: Roboto, sans-serif;
     font-size: 18px;
     font-weight: 700;
     margin-top: 20px;
 
 }
-.gallery p{
+.projects-list p{
     color: var(--main-gray);
     font-family: Roboto, sans-serif;
     font-size: 16px;

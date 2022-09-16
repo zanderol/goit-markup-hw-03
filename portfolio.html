@@ -15,106 +15,104 @@
     <!-- Main -->
     <div>
         <!-- Header -->
-        <header>
-            <nav>
-                <a class="logo-webstudio" href="./index.html"> 
-                    <span class="logo-web-blue">Web</span>Studio
-                </a>
+        <header class="main-header">
+            <nav class="main-nav">
+
                 <ul class="site-nav">
-                    <li><a class="link" href="#">Студія</a></li>
-                    <li><a class="current-page" href="portfolio.html">Портфоліо</a></li>
+                    <li><a href="/" class="link main-logo-link">
+                    <span class="logo-web-blue">Web</span>Studio
+                </a></li>
+                    <li><a class="link" href="./index.html">Студія</a></li>
+                    <li><a class="current-page" href="./portfolio.html">Портфоліо</a></li>
                     <li><a class="link" href="#">Контакти</a></li>
                 </ul>
             </nav>
-                <ul>
+                <ul class="header-contacts">
                     <li>
-                        <a class="link" href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+                        <a class="link meta-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                     <li>
-                        <a class="link" href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+                        <a class="link meta-link" href="tel:+380961111111">+38 096 111 11 11</a>
                     </li>
                 </ul>
         </header>
-        <main>
+        <main class="main">
             <!-- Portfolio navigation -->
-            <section>
-                <h2>Portfolio content filter</h2>
-                <ul class="page-nav">
-                    <input type="button" 
-                    value="Усі" onclick="window.location.href='#'" class="button">
-                    <input type="button" 
-                    value="Веб-сайти" onclick="window.location.href='#'" class="button">
-                    <input type="button" 
-                    value="Додатки" onclick="window.location.href='#'" class="button">
-                    <input type="button" 
-                    value="Дизайн" onclick="window.location.href='#'" class="button">
-                    <input type="button" 
-                    value="Маркетинг" onclick="window.location.href='#'" class="button">
+            <section class="buttons">
+                <h2 class="h2-title-invisible">Portfolio content</h2>
+                <ul>
+                    <input class="single-button" type="button" 
+                    value="Усі" onclick="window.location.href='#'">
+                    <input class="single-button" type="button" 
+                    value="Веб-сайти" onclick="window.location.href='#'">
+                    <input class="single-button" type="button" 
+                    value="Додатки" onclick="window.location.href='#'">
+                    <input class="single-button" type="button" 
+                    value="Дизайн" onclick="window.location.href='#'">
+                    <input class="single-button" type="button" 
+                    value="Маркетинг" onclick="window.location.href='#'">
                 </ul>
-
+            </section>
+            <section class="projects-list">
                 <ul>
                     <li><a class="link" href="#">
-                        <img src="./images/porfolio/technocrack.jpg" alt="Технокряк"  width="370">
+                        <img src="./images/portfolio/technocrack.jpg" alt="Технокряк"  width="370">
                         <h3>Технокряк</h3>
                         <p>Веб-сайт</p>
                     </a></li>
                     <li><a class="link" href="#">
-                        <img src="./images//porfolio/new-orlean-vs-golden-star.jpg" alt="Постер New Orlean vs Golden Star"  width="370">
+                        <img src="./images/portfolio/new-orlean-vs-golden-star.jpg" alt="Постер New Orlean vs Golden Star"  width="370">
                         <h3>Постер New Orlean vs Golden Star</h3>
                         <p>Дизайн</p>
                     </a></li>
                     <li><a class="link" href="#">
-                        <img src="./images/porfolio/seafood-restaurant.jpg" alt="Ресторан Seafood"  width="370">
+                        <img src="./images/portfolio/seafood-restaurant.jpg" alt="Ресторан Seafood"  width="370">
                         <h3>Ресторан Seafood</h3>
                         <p>Додаток</p>
                     </a></li>
                     <li><a class="link" href="#">
-                        <img src="./images/porfolio/prime-project.jpg" alt="Проєкт Prime"  width="370">
+                        <img src="./images/portfolio/prime-project.jpg" alt="Проєкт Prime"  width="370">
                         <h3>Проєкт Prime</h3>
                         <p>Маркетинг</p>
                     </a></li>
                     <li><a class="link" href="#">
-                        <img src="./images/porfolio/boxes-project.jpg" alt="Проєкт Boxes"  width="370">
+                        <img src="./images/portfolio/boxes-project.jpg" alt="Проєкт Boxes"  width="370">
                         <h3>Проєкт Boxes</h3>
                         <p>Додаток</p>
                     </a></li>
                     <li><a class="link" href="#">
-                        <img src="./images/porfolio/inspiration-has-no-borders.jpg" alt="Inspiration has no Borders"  width="370">
+                        <img src="./images/portfolio/inspiration-has-no-borders.jpg" alt="Inspiration has no Borders"  width="370">
                         <h3>Inspiration has no Borders</h3>
                         <p>Веб-сайт</p>
                     </a></li>
                     <li><a class="link" href="#">
-                        <img src="./images/porfolio/i-am-limited-edition.jpg" alt="Видання Limited Edition"  width="370">
+                        <img src="./images/portfolio/i-am-limited-edition.jpg" alt="Видання Limited Edition"  width="370">
                         <h3>Видання Limited Edition</h3>
                         <p>Дизайн</p>
                     </a></li>
                     <li><a class="link" href="#">
-                        <img src="./images/porfolio/lab-project.jpg" alt="Проєкт LAB"  width="370">
+                        <img src="./images/portfolio/lab-project.jpg" alt="Проєкт LAB"  width="370">
                         <h3>Проєкт LAB</h3>
                         <p>Маркетинг</p>
                     </a></li>
                     <li><a class="link" href="#">
-                        <img src="./images/porfolio/growing-business.jpg" alt="Growing Business"  width="370">
+                        <img src="./images/portfolio/growing-business.jpg" alt="Growing Business"  width="370">
                         <h3>Growing Business</h3>
                         <p>Додаток</p>
                     </a></li>
                 </ul>
             </section>
-            <!-- Selected list -->
-            <section>
-
-            </section>
         </main>
         <!-- Footer -->
-        <footer>
-                <a href="/" class="logo-webstudio"> 
+        <footer class="main-footer">
+                <a class="link main-logo-link" href="./index.html"> 
                     <span class="logo-web-blue">Web</span>Studio
                 </a>
                 <address>
-                    <ul>
-                        <li>м. Київ, пр-т Лесі Українки, 26</li>
-                        <li><a class="link" href="mailto:mango@mail.pig">info@devstudio.com</a></li>
-                        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <ul class="footer-contacts">
+                        <li> м. Київ, пр-т Лесі Українки, 26</li>
+                        <li> <a class="link meta-link-60" href="mailto:mango@mail.pig">info@devstudio.com</a></li>
+                        <li><a class="link meta-link-60" href="tel:+380961111111">+38 096 111 11 11</a></li>
                     </ul>
                 </address>
         </footer>
