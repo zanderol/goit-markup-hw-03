@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+
     <link rel="stylesheet" href="css/styles.css">
     <title>Студія</title>
 </head>
@@ -16,7 +18,7 @@
     <div>
         <!-- Header -->
         <header class="main-header">
-            <nav class="main-nav">
+            <nav class="main-nav container">
 
                 <ul class="site-nav">
                     <li><a href="/" class="link main-logo-link">
@@ -26,7 +28,7 @@
                     <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
                     <li><a class="link" href="#">Контакти</a></li>
                 </ul>
-            </nav>
+            
                 <ul class="header-contacts">
                     <li>
                         <a class="link meta-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -35,16 +37,19 @@
                         <a class="link meta-link" href="tel:+380961111111">+38 096 111 11 11</a>
                     </li>
                 </ul>
+            </nav>
         </header>
+
         <main>
         <!-- Hero -->
-            <section class="page-hero">
-                <h1>Ефективні рішення для <br /> вашого бізнесу</h1>
+            <section class="page-hero section">
+                <h1 class="hero-title">Ефективні рішення для <br /> вашого бізнесу</h1>
                 <input type="button" class="hero-button"
                 value="Замовити послугу" onclick="window.location.href='#'">
             </section>
+        <div class="container">
         <!-- description -->
-        <section class="description">
+        <section class="description section">
             <h2 class="title-invisible"> Description </h2>
             <ul>
                 <li>
@@ -66,7 +71,7 @@
             </ul>
         </section>
         <!-- About us -->
-        <section class="about-us">
+        <section class="about-us section">
             <h2 class="h2-title">Чим ми займаємося</h2>
             <ul>
                 <li>
@@ -80,10 +85,11 @@
                 </li>                
             </ul>
         </section>
+        </div>
         <!-- Our team -->
-        <section class="our-team">
+        <section class="our-team section">
             <h2 class="h2-title">Наша команда</h2>
-                <ul>
+                <ul class="container">
                     <li>
                         <img src="./images/team_card_1.jpg" alt="Product designer"  width="270">
                         <h3>Ігор Дем'яненко</h3>
@@ -115,8 +121,8 @@
                 <address>
                     <ul class="footer-contacts">
                         <li><a class="link footer-local-adress" href="#"> м. Київ, пр-т Лесі Українки, 26</a></li>
-                        <li><a class="link meta-link-60" href="mailto:mango@mail.pig">info@devstudio.com</a></li>
-                        <li><a class="link meta-link-60" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                        <li><a class="link meta-link" href="mailto:mango@mail.pig">info@devstudio.com</a></li>
+                        <li><a class="link meta-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                     </ul>
                 </address>
         </footer>
