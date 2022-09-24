@@ -11,13 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Портфоліо</title>
+    <title>Студія</title>
   </head>
   <body>
     <!-- Main -->
@@ -48,7 +48,7 @@
         <div class="section">
           <!-- Portfolio navigation -->
           <section class="buttons">
-            <h1 class="title-invisible">Portfolio content</h1>
+            <h1 class="visually-hidden">Portfolio navigation</h1>
             <ul>
               <li class="button-item"><button class="single-button" type="submit">Усі</button></li>
               <li class="button-item">
@@ -68,12 +68,15 @@
           <!-- Projects list -->
           <section class="projects-list">
             <div class="container">
+              <h2 class="visually-hidden">Portfolio content</h2>
               <ul>
                 <li class="project-list-item">
                   <a class="link" href="#">
                     <img src="./images/portfolio/technocrack.jpg" alt="Технокряк" width="370" />
-                    <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
+                    <div class="single-project-block">
+                      <h3>Технокряк</h2>
+                      <p>Веб-сайт</p>
+                    </div>
                   </a>
                 </li>
                 <li class="project-list-item">
@@ -83,8 +86,10 @@
                       alt="Постер New Orlean vs Golden Star"
                       width="370"
                     />
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p>Дизайн</p>
+                    <div class="single-project-block">
+                      <h3>Постер New Orlean vs Golden Star</h2>
+                      <p>Дизайн</p>
+                    </div>
                   </a>
                 </li>
                 <li class="project-list-item">
@@ -94,8 +99,10 @@
                       alt="Ресторан Seafood"
                       width="370"
                     />
-                    <h2>Ресторан Seafood</h2>
-                    <p>Додаток</p>
+                    <div class="single-project-block">
+                      <h3>Ресторан Seafood</h2>
+                      <p>Додаток</p>
+                    </div>
                   </a>
                 </li>
                 <li class="project-list-item">
@@ -105,8 +112,10 @@
                       alt="Проєкт Prime"
                       width="370"
                     />
-                    <h2>Проєкт Prime</h2>
-                    <p>Маркетинг</p>
+                    <div class="single-project-block">
+                      <h3>Проєкт Prime</h2>
+                      <p>Маркетинг</p>
+                    </div>
                   </a>
                 </li>
                 <li class="project-list-item">
@@ -116,8 +125,10 @@
                       alt="Проєкт Boxes"
                       width="370"
                     />
-                    <h2>Проєкт Boxes</h2>
-                    <p>Додаток</p>
+                    <div class="single-project-block">
+                      <h3>Проєкт Boxes</h2>
+                      <p>Додаток</p>
+                    </div>
                   </a>
                 </li>
                 <li class="project-list-item">
@@ -127,8 +138,10 @@
                       alt="Inspiration has no Borders"
                       width="370"
                     />
-                    <h2>Inspiration has no Borders</h2>
-                    <p>Веб-сайт</p>
+                    <div class="single-project-block">
+                      <h3>Inspiration has no Borders</h2>
+                      <p>Веб-сайт</p>
+                    </div>
                   </a>
                 </li>
                 <li class="project-list-item">
@@ -138,15 +151,19 @@
                       alt="Видання Limited Edition"
                       width="370"
                     />
-                    <h2>Видання Limited Edition</h2>
-                    <p>Дизайн</p>
+                    <div class="single-project-block">
+                      <h3>Видання Limited Edition</h2>
+                      <p>Дизайн</p>
+                    </div>
                   </a>
                 </li>
                 <li class="project-list-item">
                   <a class="link" href="#">
                     <img src="./images/portfolio/lab-project.jpg" alt="Проєкт LAB" width="370" />
-                    <h2>Проєкт LAB</h2>
-                    <p>Маркетинг</p>
+                    <div class="single-project-block">
+                      <h3>Проєкт LAB</h2>
+                      <p>Маркетинг</p>
+                    </div>
                   </a>
                 </li>
                 <li class="project-list-item">
@@ -156,8 +173,10 @@
                       alt="Growing Business"
                       width="370"
                     />
-                    <h2>Growing Business</h2>
-                    <p>Додаток</p>
+                    <div class="single-project-block">
+                      <h3>Growing Business</h2>
+                      <p>Додаток</p>
+                    </div>
                   </a>
                 </li>
               </ul>
@@ -173,11 +192,13 @@
           </a>
           <address>
             <ul class="footer-contacts">
-              <li>
+              <li class="footer-address">
                 <a class="link footer-local-adress" href="#"> м. Київ, пр-т Лесі Українки, 26</a>
               </li>
-              <li><a class="link meta-link" href="mailto:mango@mail.pig">info@devstudio.com</a></li>
-              <li><a class="link meta-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+              <li class="footer-address">
+                <a class="link" href="mailto:mango@mail.pig">info@devstudio.com</a>
+              </li>
+              <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
           </address>
         </div>
