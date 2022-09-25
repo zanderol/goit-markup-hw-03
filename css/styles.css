@@ -88,6 +88,7 @@ ul {
 
 .section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .section:first-child {
@@ -322,10 +323,6 @@ ul {
   /* border: var(--projects-list-li-border-color) 1px solid; */
   /* padding-bottom: 30px; */
   border-bottom: 1px solid var(--main-gray);
-}
-
-.our-team .section-title {
-  padding-top: 94px;
 }
 
 .team-block {
